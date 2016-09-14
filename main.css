@@ -1,5 +1,11 @@
-html { 
-  background: url(landscape.jpg) no-repeat center center fixed; 
+/*
+	Luis Serota 2016
+	Startup Sytems & Engineering - Github Personal Page assignment
+	main.css
+*/
+
+body { 
+  background: url('landscape.jpg') no-repeat center center fixed;  /* http://7-themes.com/7024361-waterfall-landscape.html */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7,5 +13,19 @@ html {
 }
 
 .jumbotron {
+	margin-top: 15px;
+	background-color: rgba(211, 211, 211, 0.5);
+}
+
+.jumbotron .top {
 	text-align: center;
 }
+
+.jumbotron .bio {
+	text-align: left;
+}
+
+.jumbotron .bio p {
+	font-weight: bold;
+}
+
